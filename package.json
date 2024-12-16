@@ -1,0 +1,24 @@
+{
+  "name": "Automated_testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lab_1": "pnpm --filter lab_1 run test",
+    "lab_2": "pnpm --filter lab_2 run test",
+    "lab_3": "pnpm --filter lab_3 run test",
+    "lab_4": "pnpm --filter lab_4 run test",
+    "lab_5": "pnpm --filter lab_5 run test",
+    "lab_6": "pnpm --filter lab_6 run test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "mocha": "^11.0.1",
+    "mtrx": "^0.1.6",
+    "selenium-webdriver": "^4.27.0",
+    "sinon": "^19.0.2"
+  }
+}
