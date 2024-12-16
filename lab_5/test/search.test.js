@@ -82,7 +82,6 @@ describe("Page interaction", function () {
     const unitPrice = parseFloat(priceText.replace("$", ""));
     expect(unitPrice).to.be.a("number").and.not.NaN;
 
-    // Change the quantity of the item and update
     const qtyInput = await driver.findElement(By.css('input[title="Qty"]'));
     await qtyInput.clear();
     const newQty = "2";
